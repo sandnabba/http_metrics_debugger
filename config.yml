@@ -1,0 +1,14 @@
+url: https://example.com
+method: GET
+data: null
+interval: 0
+loop: 1
+background: false
+reuse_connection: false
+influx:
+  enabled: false
+  url: http://your_influxdb_host:8086
+  token: your_influxdb_token
+  org: your_influxdb_org
+  bucket: your_influxdb_bucket
+  location: "Data Center A"
